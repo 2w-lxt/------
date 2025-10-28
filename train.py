@@ -1,13 +1,1 @@
-#coding:utf-8
-from ultralytics import YOLO
-
-model = YOLO("yolov8n.pt")
-# Use the model # datasets/dataset/images/
-if __name__ == '__main__':
-    # Use the model
-    results = model.train(data='E:\拼多多\class_Detection_end\datasets\dataset\data.yaml', epochs=250, batch=4)
-
-    # success = model.export(format='onnx')
-
-
-
+{"metadata":{"kernelspec":{"language":"python","display_name":"Python 3","name":"python3"},"language_info":{"name":"python","version":"3.11.13","mimetype":"text/x-python","codemirror_mode":{"name":"ipython","version":3},"pygments_lexer":"ipython3","nbconvert_exporter":"python","file_extension":".py"},"kaggle":{"accelerator":"none","dataSources":[],"dockerImageVersionId":31153,"isInternetEnabled":true,"language":"python","sourceType":"notebook","isGpuEnabled":false}},"nbformat_minor":4,"nbformat":4,"cells":[{"cell_type":"code","source":"! git init\n! git clone https://github.com/2w-lxt/------.git\n","metadata":{"trusted":true,"execution":{"iopub.status.busy":"2025-10-28T14:59:59.582462Z","iopub.execute_input":"2025-10-28T14:59:59.582814Z","iopub.status.idle":"2025-10-28T15:00:20.974956Z","shell.execute_reply.started":"2025-10-28T14:59:59.582786Z","shell.execute_reply":"2025-10-28T15:00:20.973980Z"}},"outputs":[{"name":"stdout","text":"Reinitialized existing Git repository in /kaggle/working/.git/\nCloning into '------'...\nremote: Enumerating objects: 4033, done.\u001b[K\nremote: Total 4033 (delta 0), reused 0 (delta 0), pack-reused 4033 (from 2)\u001b[K\nReceiving objects: 100% (4033/4033), 665.78 MiB | 49.25 MiB/s, done.\nResolving deltas: 100% (32/32), done.\nUpdating files: 100% (4440/4440), done.\n","output_type":"stream"}],"execution_count":2},{"cell_type":"code","source":"import os\nprint(os.getcwd())","metadata":{"trusted":true,"execution":{"iopub.status.busy":"2025-10-28T15:02:37.448801Z","iopub.execute_input":"2025-10-28T15:02:37.449397Z","iopub.status.idle":"2025-10-28T15:02:37.455575Z","shell.execute_reply.started":"2025-10-28T15:02:37.449361Z","shell.execute_reply":"2025-10-28T15:02:37.454523Z"}},"outputs":[{"name":"stdout","text":"/kaggle/working\n","output_type":"stream"}],"execution_count":3}]}
