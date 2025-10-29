@@ -21,11 +21,11 @@ scipy==1.11.3
 seaborn==0.13.0
 six==1.16.0
 thop==0.1.1-2209072238
-torch==1.9.0
+torch==1.13.1  # 升级以适配 Python 3.9 并提升兼容性
 tqdm==4.66.1
 typing-extensions==4.8.0
-ultralytics==8.0.199
+ultralytics==8.0.200  # 与 torch 1.13.1 匹配
 urllib3==2.0.6
 zipp==3.17.0
-PyQt5==5.15.2
-pyqt5-tools==5.15.2.3.1
+PyQt5==5.15.7  # 修复 Python 3.9 兼容性问题
+pyqt5-tools==5.15.7.1.0.1  # 与 PyQt5 版本匹配
